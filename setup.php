@@ -309,7 +309,7 @@ function mikrotik_setup_table() {
 		`host_id` int(10) unsigned NOT NULL,
 		`index` int(10) unsigned NOT NULL,
 		`type` int(10) unsigned default '1',
-		`description` varchar(255) default '',
+		`description` varchar(128) default '',
 		`allocationUnits` int(10) unsigned default '0',
 		`size` int(10) unsigned default '0',
 		`used` int(10) unsigned default '0',
